@@ -1,0 +1,21 @@
+.para{
+    display:right;
+    margin-left:350px;
+}
+img{
+    float:left;
+    padding:20px;
+}
+body{
+    font-size:15px;
+    padding-left:15%;
+    padding-right:15%;
+    padding-top:3%;
+    background-color: antiquewhite;
+}
+span{
+    color:#e01616;
+}
+body{
+    font-size:1.35em;
+}

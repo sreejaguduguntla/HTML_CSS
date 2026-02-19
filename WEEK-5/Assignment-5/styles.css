@@ -1,0 +1,13 @@
+.image-row {
+  display: flex;              
+  justify-content: center;    
+  gap: 10px;                 
+  flex-wrap: wrap;            
+}
+
+
+.image-row img {
+  width: 300px;               
+  height: auto;               
+  border-radius: 8px;         
+}
