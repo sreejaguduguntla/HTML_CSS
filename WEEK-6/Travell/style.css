@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+.hero {
+    height: 90vh;
+    background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: darkorange;
+}
+
+.outdoor {
+    display: flex;
+    padding: 60px 10%;
+    background: white;
+    gap: 40px;
+    align-items: center;
+}
+
+.outdoor-text {
+    flex: 1;
+}
+
+.outdoor-text h2 {
+    color: #0a3d91;
+    margin-bottom: 20px;
+}
+
+.outdoor-image img {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.tourism {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.tourism h2 {
+    color: #0a3d91;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #eaeaea;
+    padding: 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    background: #dcdcdc;
+    transform: translateY(-5px);
+}
+
+.choose {
+    padding: 60px 10%;
+    text-align: center;
+    background: white;
+}
+
+.choose h2 {
+    color: #0a3d91;
+    margin-bottom: 30px;
+}
+
+.tabs span {
+    margin: 0 15px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.tabs .active {
+    border-bottom: 3px solid orange;
+    font-weight: bold;
+}
